@@ -1,0 +1,297 @@
+body {
+    background-image: url(https://zrjosw.bl.files.1drv.com/y4p-iRdCp561yCHSBGRAV0goLGq-0M-hxVunDGbn5SHvS1e_RE5PtF10sldNpnB4RhpUDaGcBNurgvqrzLpg3eRupEC7kSBkT7Os2wGby_kswhBjrlzt39VPpJffUw9zj0PqV5l4DZsbnG9xK2cRsezqiG1QeaYpVpIFuk6rlEVv4rt4V7OfMWeweFZEO0oCygANiPtftKcWW5Dpy2niWZJX9_ycs5OAXYVi_Oc-DjqwEE?encodeFailures=1&width=1920&height=887);
+    display: flex;
+    flex-direction: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.wrapper1 {
+    display: flex;
+    justify-content: space-between;
+    height: 35px;
+}
+
+.wrapper2 {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+    flex-flow: wrap;
+
+}
+
+.wrapper3 {
+    display: flex;
+}
+
+.wrapper4 {
+    display: flex;
+    height: 40px;
+    align-items: center;
+}
+
+#header {
+    display: flex;
+    border-radius: 5px;
+    border: 1px solid rgb(207, 207, 207, 0.8);
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    width: 30%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+
+#header2 {
+    display: flex;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    width: 30%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+
+/* Comentário */
+
+#central {
+    background-image: linear-gradient(45deg, rgb(51, 51, 51, 0.4), rgb(43, 43, 43, 0.4));
+    border: 0px solid rgb(109, 109, 109);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 20%;
+}
+
+#educacao {
+    border-radius: 5px;
+    display: flex;
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+    color: rgb(221, 221, 221);
+}
+
+#carreira {
+    border-radius: 5px;
+    display: flex;
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+    color: rgb(221, 221, 221);
+}
+
+#espacamento_vertical {
+    display: flex;
+    align-items: center;
+    height: 25px;
+}
+
+#espacamento_horizontal {
+    display: flex;
+    width: 10%;
+}
+
+.content1 {
+    background-image: linear-gradient(45deg, rgb(51, 51, 51, 0.9), rgb(43, 43, 43, 0.5));
+    flex-direction: column;
+    border-radius: 5px;
+    display: flex;
+    color: white;
+    width: 75%;
+    height: 500px;
+    padding: 15px;
+}
+
+.imagenseu {
+    display: flex;
+    height: 20%;
+    justify-content: space-around;
+}
+
+.legendas {
+    display: flex;
+    height: 10%;
+    justify-content: space-around;
+}
+
+#pena {
+    display: flex;
+    height: 100%;
+    object-fit: contain;
+    align-self: center;
+    width: 20%;
+}
+
+#grupo {
+    display: flex;
+    height: 100%;
+    object-fit: contain;
+    align-self: center;
+    width: 20%;
+}
+
+#etica {
+    display: flex;
+    height: 100%;
+    object-fit: contain;
+    align-self: center;
+    width: 20%;
+}
+
+#content1 {
+    display: flex;
+    font-weight: 800;
+    font-size: x-large;
+    align-items: center;
+    color: white;
+    height: 20%;
+}
+
+#content2 {
+    display: flex;
+    font-size:large;
+    font-weight: 200;
+    align-items: center;
+    color: white;
+    height: 40%;
+}
+
+#logo {
+    display: flex;
+    height: 100%;
+    object-fit: contain;
+    align-self: center;
+    width: 15%;
+}
+
+#legenda {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    font-size:medium;
+    font-weight: 200;
+    align-items: center;
+    color: white;
+}
+
+#henrick {
+    display: flex;
+    height: 100%;
+    object-fit: contain;
+    align-self: center;
+    width: 20%;
+    border-radius: 7px;
+}
+
+.escolas {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    object-fit: contain;
+    width: 20%;
+    height: 600px;
+}
+
+#escolas {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    object-fit: contain;
+    height: 45%;
+}
+
+#escolastexto {
+    background-image: linear-gradient(45deg, rgb(51, 51, 51, 0.9), rgb(43, 43, 43, 0.5));
+    flex-direction: column;
+    align-items: flex-start;
+    display: flex;
+    font-weight: 100;
+    font-size: medium;
+    color: white;
+    height: 16%;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+#secundario {
+    background-image: linear-gradient(45deg, rgba(71, 71, 71, 0.9), rgba(102, 102, 102, 0.5));
+    flex-direction: column;
+    align-items: flex-start;
+    display: flex;
+    font-weight: 100;
+    font-size:small;
+    color: white;
+    height: 10%;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+#data {
+    display: flex;
+    font-weight: 100;
+    font-style: italic;
+    font-size: medium;
+    align-items: center;
+    color: white;
+    height: 10%;
+}
+
+.escolastexto {
+    flex-direction: column;
+    justify-content: space-evenly;
+    display: flex;
+    color: white;
+    width: 75%;
+    height: 600px;
+}
+
+
+#extra {
+    background-color:hsl(142deg 98% 58%);
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 50%;
+}
+
+#footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 30px;
+    width: 75%;
+    color: rgb(151, 151, 151);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+}
+
+.habilidades {
+    background-image: linear-gradient(45deg, rgba(156, 156, 156, 0.9), rgba(255, 255, 255, 0.5));
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+    border-radius: 5px;
+    height: 100px;
+}
+
+#habilidade {
+    display: flex;
+    height: 100%;
+    object-fit: contain;
+    align-self: center;
+    width: 30%;
+}
