@@ -1,11 +1,11 @@
 body {
-    background-image: url(https://zrjosw.bl.files.1drv.com/y4p-iRdCp561yCHSBGRAV0goLGq-0M-hxVunDGbn5SHvS1e_RE5PtF10sldNpnB4RhpUDaGcBNurgvqrzLpg3eRupEC7kSBkT7Os2wGby_kswhBjrlzt39VPpJffUw9zj0PqV5l4DZsbnG9xK2cRsezqiG1QeaYpVpIFuk6rlEVv4rt4V7OfMWeweFZEO0oCygANiPtftKcWW5Dpy2niWZJX9_ycs5OAXYVi_Oc-DjqwEE?encodeFailures=1&width=1920&height=887);
+    background-image: url(./imagens/textura.png);
+    background-size: cover;
     display: flex;
     flex-direction: column;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 300;
     font-size: 12px;
-
 }
 
 a:link {
