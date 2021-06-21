@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="X-UA-Compatible" content="IE=7">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>portfolio</title>
   <link rel="stylesheet" href="style.css">
@@ -41,80 +41,110 @@
     <div class='cabecalho'>
     </div>
   </div>
+
   <div id='espacamento_vertical'>
   </div>
 
-  <div class='wrapper2'>
-    <div id='escolas'>
-      <img class='escolas' src="./imagens/poli.png">
-      <img class='escolas' src="./imagens/etec.png">
-      </div>
-    <div class='escolastexto'>
-      <div id='data'>
-        2020 - 2024
-      </div>
-      <div id='escolastexto'>
-        <b>Engenharia Mecânica</b>
-        <br>
-        <br>
-        Escola Politécnica da USP
-        <br>
-        Butantã - São Paulo
-        
-      </div>
-      <div id='secundario'>
-        Participação em Olimpíadas de Matemática e Física
-        <br>
-        Projeto destaque: TCC indicado à FETESTP 2018.
+  <div id="conteudo">
+      <div class='wrapper2'>
+          <img class='imagemescola' src="./imagens/poli.png">
+
+        <div class='escolastexto'>
+          <div class='data'>
+            2020 - 2024
+          </div>
+
+          <button class='escola'>
+            <b>Engenharia Mecânica</b>
+            <br>
+            <br>
+            Escola Politécnica da USP
+            <br>
+            Butantã - São Paulo
+          </button>
+
+          <div class='textosecundario'>
+            Participação em Olimpíadas de Matemática e Física
+            <br>
+            Projeto destaque: TCC indicado à FETESTP 2018.
+          </div>
+        </div>
       </div>
 
       <div id='espacamento_vertical'>
       </div>
 
-      <div id='data'>
-        2015 - 2017
-      </div>
+     <div class='wrapper2'>
+          <img class='imagemescola' src="./imagens/etec.png">
 
-      <div id='escolastexto'>
-        <b>Técnico em Eletrônica</b>
-        <br>
-        <br>
-        Etec José Rocha Mendes
-        <br>
-        Vila Prudente - São Paulo
-      </div>   
-      <div id='secundario'>
-        Jovem Semente 2019 na ong Instituto Semear.
-        <br>
-        Iniciação Científica - Robô Hospitalar autônomo
-        <br>
-        Extensão universitária - Poli Milhagem       
-      </div>     
-      
-    </div>
-    </div>
-      
+        <div class='escolastexto'>
+          <div id='data'>
+            2015 - 2017
+          </div>
+
+          <button class='escola'>
+            <b>Técnico em Eletrônica</b>
+            <br>
+            <br>
+            Etec José Rocha Mendes
+            <br>
+            Vila Prudente - São Paulo
+          </button>
+
+          <div class='textosecundario'>
+            Jovem Semente 2019 na ong Instituto Semear.
+            <br>
+            Iniciação Científica - Robô Hospitalar autônomo
+            <br>
+            Extensão universitária - Poli Milhagem       
+          </div>
+        </div>
+     </div>
+  </div>
+
+  <div id='espacamento_vertical'>
+  </div>
+
+  <div id='habilidades'>
+    <img class='habilidade' src="./imagens/idiomas.png">
+    <img class='habilidade' src="./imagens/office.png">
+    <img class='habilidade' src="./imagens/code.png">
+    <img class='habilidade' src="./imagens/logica.png">
+    <img class='habilidade' src="./imagens/powerbi.png">
+    <img class='habilidade' src="./imagens/modelagem.png">
+  </div>
+
+  <div id='espacamento_vertical'>
   </div>
 
   <div class='wrapper3'>
-    <div id='espacamento_vertical'></div>
-  </div>
-
-  <div class='habilidades'>
-    <img class='imagenspessoal' src="./imagens/code.png">
-    <img class='imagenspessoal' src="./imagens/office.png">
-    <img class='imagenspessoal' src="./imagens/modelagem.png">
-  </div>
-
-  <div class='wrapper3'>
-    <div id='espacamento_vertical'></div>
-  </div>
-  <div class='wrapper4'>
     <img id='logo' src="https://images.squarespace-cdn.com/content/550c3329e4b0af84594d0e14/1603377889487-EE9DGPK3DIF2IJVQO5UB/Logo+Horizontal+Negativo.png?format=1500w&content-type=image%2Fpng">
+    
     <div id='footer'>
-      <i>Portfólio em HTML. Entregável da primeira semana. Treinamento Instituto TaqTile.</i>
+      <i>Portfólio em HTML. Entregável da segunda semana. Treinamento Instituto TaqTile.</i>
     </div>
   </div>
+
+
+
+<script>
+var accordion = document.getElementsByClassName("escola");
+var i;
+
+for (i = 0; i < accordion.length; i++) {
+  accordion[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+
+    var textosecundario = this.nextElementSibling;
+    if (textosecundario.style.display === "block") {
+      textosecundario.style.display = "none";
+    } else {
+      textosecundario.style.display = "block";
+    }
+  });
+}
+
+</script>
 
 </body>
 </html>
