@@ -60,9 +60,7 @@ a:link {
     font-size: 18px;
 }
 
-/* Comentário */
-
-#central {
+.cabecalho_selecionado {
     background-image: linear-gradient(45deg, rgb(51, 51, 51, 0.4), rgb(43, 43, 43, 0.4));
     border: 0px solid rgb(109, 109, 109);
     border-radius: 5px;
@@ -73,16 +71,7 @@ a:link {
     width: 20%;
 }
 
-#educacao {
-    border-radius: 5px;
-    display: flex;
-    width: 20%;
-    justify-content: center;
-    align-items: center;
-    color: rgb(221, 221, 221);
-}
-
-#carreira {
+.cabecalho {
     border-radius: 5px;
     display: flex;
     width: 20%;
@@ -113,36 +102,19 @@ a:link {
     padding: 15px;
 }
 
-.imagenseu {
+#imagenseu {
     display: flex;
     height: 20%;
     justify-content: space-around;
 }
 
-.legendas {
+#legendas {
     display: flex;
     height: 10%;
     justify-content: space-around;
 }
 
-#pena {
-    display: flex;
-    height: 100%;
-    object-fit: contain;
-    align-self: center;
-    width: 20%;
-}
-
-#grupo {
-    display: flex;
-    height: 100%;
-    object-fit: contain;
-    align-self: center;
-    width: 20%;
-}
-
-#etica {
-    display: flex;
+.imagenspessoal {
     height: 100%;
     object-fit: contain;
     align-self: center;
@@ -175,7 +147,7 @@ a:link {
     width: 15%;
 }
 
-#legenda {
+.legenda {
     width: 20%;
     display: flex;
     justify-content: center;
@@ -194,7 +166,7 @@ a:link {
     border-radius: 7px;
 }
 
-.escolas {
+#escolas {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -203,8 +175,7 @@ a:link {
     height: 600px;
 }
 
-#escolas {
-    display: flex;
+.escolas {
     justify-content:center;
     align-items: center;
     object-fit: contain;
