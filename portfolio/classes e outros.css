@@ -58,18 +58,20 @@ footer {
   justify-content: center;
   align-items: center;
   color: white;
-  width: 20%;
+  flex: 1 0 30%;
   text-align: center;
+  min-height: 50px;
 }
 
 .cabecalho {
   border-radius: 5px;
   display: flex;
-  width: 20%;
+  flex: 1 0 30%;
   justify-content: center;
   align-items: center;
   color: rgb(221, 221, 221);
   text-align: center;
+  min-height: 50px;
 }
 
 .blocoimagemeu {

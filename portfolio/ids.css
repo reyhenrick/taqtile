@@ -9,6 +9,16 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 18px;
 }
+
+#menus {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  min-width: 60%;
+  height: auto;
+}
+
+
 #espacamento_vertical {
   display: flex;
   align-items: center;
