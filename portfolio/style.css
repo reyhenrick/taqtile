@@ -1,11 +1,14 @@
 body {
   background-image: url(./imagens/textura.png);
   background-size:cover;
+  background-attachment: fixed;
   display: flex;
   flex-direction: column;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: 300;
   font-size: 12px;
+  padding:0;
+  
 }
 
 a:link {
@@ -41,7 +44,7 @@ footer {
   height: 40px;
   align-items: center;
   bottom: 0;
-  
+  position:fixed;
 }
 
 #header {
@@ -85,7 +88,7 @@ footer {
 #espacamento_vertical {
   display: flex;
   align-items: center;
-  height: 25px;
+  height: 5vh;
 }
 
 #espacamento_horizontal {
@@ -101,7 +104,7 @@ footer {
 
 #legendas {
   display: flex;
-  height: 10%;
+  height: auto;
   justify-content: space-around;
 }
 
