@@ -7,7 +7,8 @@
   <title>portfolio</title>
   <link rel="stylesheet" href="ids.css">
   <link rel="stylesheet" href="classes e outros.css">
-
+  <link rel="script" href="javascript.js">
+  
   <div class='topo'>
     <div id='header'>
       <p1>
@@ -104,25 +105,6 @@
 
   <div id='espacamento_vertical'>
   </div>
-
-
-<script>
-var accordion = document.getElementsByClassName("escola");
-var i;
-
-for (i = 0; i < accordion.length; i++) {
-  accordion[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-
-    var textosecundario = this.nextElementSibling;
-    if (textosecundario.style.display === "block") {
-      textosecundario.style.display = "none";
-    } else {
-      textosecundario.style.display = "block";
-    }
-  });
-}
-</script>
 
 <footer>
   <img id='logo' src="./imagens/logo.png">
