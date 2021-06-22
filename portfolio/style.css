@@ -2,6 +2,7 @@ body {
   background-image: url(./imagens/textura.png);
   background-size:cover;
   background-attachment: fixed;
+  background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -15,7 +16,7 @@ a:link {
   text-decoration: none;
 }
 
-.wrapper1 {
+.topo {
   display: flex;
   justify-content: space-between;
   min-height: 35px;
@@ -61,10 +62,9 @@ footer {
 
 .cabecalho_selecionado {
   background-image: linear-gradient(
-    45deg,
+    to top left,
     rgb(51, 51, 51, 0.4),
-    rgb(43, 43, 43, 0.4)
-  );
+    rgb(43, 43, 43, 0.4));
   border: 0px solid rgb(109, 109, 109);
   border-radius: 5px;
   display: flex;
@@ -98,22 +98,37 @@ footer {
 
 #imagenseu {
   display: flex;
-  height: 20%;
+  min-height: 20%;
+  height:auto;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 
-#legendas {
+.blocoimagemeu {
   display: flex;
   height: auto;
   justify-content: space-around;
+  flex-direction: column;
+  height:auto;
+  flex: 1 0 33%;
 }
 
-.imagenspessoal {
+.imagempessoal {
   height: 100%;
   object-fit: contain;
   align-self: center;
-  width: 30%;
   max-height: 100px;
+}
+
+.legenda {
+  display: flex;
+  justify-content: center;
+  font-size: medium;
+  font-weight: 200;
+  align-items: center;
+  color: white;
+  text-align: center;
+  height:auto;
 }
 
 #content1 {
@@ -123,6 +138,7 @@ footer {
   align-items: center;
   color: white;
   height: 20%;
+  margin:10px;
 }
 
 #content2 {
@@ -132,6 +148,7 @@ footer {
   align-items: center;
   color: white;
   height: 40%;
+  margin:10px;
 }
 
 #logo {
@@ -142,32 +159,20 @@ footer {
   width: 15%;
 }
 
-.legenda {
-  width: 30%;
-  display: flex;
-  justify-content: center;
-  font-size: medium;
-  font-weight: 200;
-  align-items: center;
-  color: white;
-  text-align: center;
-}
-
 #henrick {
   display: flex;
   height: 100%;
-  object-fit: contain;
+  object-fit:contain;
   align-self: center;
-  border-radius: 7px;
+  border-radius: 5px;
   max-height: 300px;
-  min-height: 200px;
   margin: 20px;
   font-size: 100%;
 }
 
 #sobremim {
   background-image: linear-gradient(
-    45deg,
+    to top left,
     rgb(51, 51, 51, 0.9),
     rgb(43, 43, 43, 0.5)
   );
@@ -243,7 +248,7 @@ footer {
 .active,
 .escola:hover {
   background-image: linear-gradient(
-    45deg,
+    to top left,
     rgba(117, 131, 155, 0.9),
     rgba(123, 180, 255, 0.5)
   );
@@ -251,7 +256,7 @@ footer {
 
 .textosecundario {
   background-image: linear-gradient(
-    45deg,
+    to top left,
     rgba(71, 71, 71, 0.9),
     rgba(102, 102, 102, 0.5)
   );
@@ -285,11 +290,12 @@ footer {
   justify-content: center;
   align-items: center;
   color: white;
-  height: ;
+  height: auto;
+  text-align: center;
   width: 75%;
   color: rgb(151, 151, 151);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 12px;
+  font-size: 100%;
 }
 
 #habilidades {
